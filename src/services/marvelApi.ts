@@ -1,8 +1,8 @@
 //utils
-import generateAuthQueryString from 'utils/generateAuthQuery'
+import generateAuthQueryString from '../utils/generateAuthQuery'
 
 //types
-import { CharactersResponse } from 'types/characters.type'
+import { CharactersResponse } from '../types/characters.type'
 
 export type FetchCharactersPayloadType = {
   offset: number

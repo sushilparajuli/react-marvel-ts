@@ -5,7 +5,8 @@ export default function Footer() {
     <>
       <Box
         sx={{
-          backgroundColor: 'palette.grey[900]',
+          bgcolor: 'grey.900',
+          color: 'common.white',
         }}
       >
         <Container>

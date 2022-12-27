@@ -1,7 +1,9 @@
 import { Box } from '@mui/material'
 import { useEffect, useState } from 'react'
-import { fetchCharacters } from 'services/marvelApi'
-import { CharacterData } from 'types/characters.type'
+import { CharacterData } from '../../types/characters.type'
+import { fetchCharacters } from '../../services/marvelApi'
+
+import TableList from '../../components/TableList'
 
 function Home() {
   const [characters, setCharacters] = useState<CharacterData[]>([])
@@ -18,11 +20,13 @@ function Home() {
     <Box
       sx={{
         minHeight: '80vh',
+        py: 10,
       }}
     >
-      {characters.map((character) => (
-        <p>{character.name}</p>
-      ))}
+      {/* {characters.map((character) => (
+        <p key={character.id}>{character.name}</p>
+      ))} */}
+      <TableList rows={characters} />
     </Box>
   )
 }
