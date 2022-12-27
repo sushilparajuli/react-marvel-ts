@@ -8,6 +8,11 @@
 # testing
 /coverage
 
+
+#misc
+.DS_Store
+
+
 # production
 /build
 
@@ -21,3 +26,12 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#ide
+.vscode
+.idea
+
+#evironment variables
+.env
+.env.local
+.env.*.local

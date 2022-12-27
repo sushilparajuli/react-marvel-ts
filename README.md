@@ -15,6 +15,13 @@ ___
 Node: v18.12.1
 npm: 8.19.2
 ```
+
+.env Variables
+You need to Marvel Developer Account (https://developer.marvel.com)
+
+REACT_APP_MARVEL_SERVER_URL : Marvel api gateway url (https://gateway.marvel.com/v1/public)
+REACT_APP_MARVEL_PUBLIC_KEY : Marvel developer account public key
+REACT_APP_MARVEL_PRIVATE_KEY : Marvel developer account private key
 ___
 
 ## 🛠 Technologies

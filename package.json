@@ -50,6 +50,8 @@
     ]
   },
   "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "crypto-js": "^4.1.1",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest-dom": "^4.0.3",
     "husky": "^8.0.0",
