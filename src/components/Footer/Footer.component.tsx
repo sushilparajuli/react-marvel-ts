@@ -5,14 +5,15 @@ export default function Footer() {
     <>
       <Box
         sx={{
-          bgcolor: 'grey.900',
           color: 'common.white',
+          borderTop: '1px solid grey',
+          bgcolor: 'grey.800',
         }}
       >
         <Container>
           <Box
             sx={{
-              padding: 2,
+              padding: 2.5,
             }}
           >
             Copyright 2022 . Made with Marvel Api
