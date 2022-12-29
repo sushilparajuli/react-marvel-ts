@@ -21,6 +21,7 @@ import Visibility from '@mui/icons-material/Visibility'
 import { formatDate } from 'utils/formatDate'
 import { Error as ErrorIcon } from '@mui/icons-material'
 import SearchOffIcon from '@mui/icons-material/SearchOff'
+import { Link } from 'react-router-dom'
 
 export interface TableData {
   name: string
@@ -267,6 +268,7 @@ export default function EnhancedTable({
                       </TableCell>
                       <TableCell align="right">
                         <Fab
+                          component={Link}
                           title="click for detail"
                           sx={{
                             height: 36,
@@ -276,7 +278,7 @@ export default function EnhancedTable({
                               width: '0.9rem',
                             },
                           }}
-                          href={`detail/${row.id}`}
+                          to={`/detail/${row.id}`}
                           size="small"
                           color="info"
                         >

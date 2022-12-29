@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useState, useEffect } from 'react'
 
 export const useDebounce = <T>(value: T, delay: number) => {

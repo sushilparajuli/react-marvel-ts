@@ -1,10 +1,10 @@
 import { Container, Box } from '@mui/material'
 import { Outlet } from 'react-router-dom'
-import Footer from '../../components/Footer/Footer.component'
-import Header from '../../components/Header/Header.component'
-import { AppWrapper } from './Layout.styles'
+import Footer from '../components/Footer/Footer.component'
+import Header from '../components/Header/Header.component'
+import { AppWrapper } from './Root.styles'
 
-export default function Layout() {
+export default function Root() {
   return (
     <>
       <AppWrapper>

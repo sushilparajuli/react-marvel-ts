@@ -6,7 +6,7 @@ import { useParams } from 'react-router-dom'
 import { Title } from './styles'
 
 import CardContent from '@mui/material/CardContent'
-import InfoTabs from 'components/Tabs/InfoTabs'
+import InfoTabs from '../../components/Tabs/InfoTabs'
 
 function CharacterDetail() {
   const [results, setResults] = useState<CharacterData[]>([])
