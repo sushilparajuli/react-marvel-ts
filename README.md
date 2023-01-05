@@ -52,7 +52,7 @@ To start it, follow the steps below::
 $ yarn / npm install
 
 # Run the project in development
-$ yarn dev / npm run dev
+$ yarn start / npm run start
 ```
 
 To build the project::
